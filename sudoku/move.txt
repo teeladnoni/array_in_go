@@ -1,0 +1,9 @@
+Start: The algorithm is at an empty cell.
+
+Try: It tries the number '1'.
+
+Forward: It moves to the next empty cell.
+
+Block: It realizes 5 steps later that the '1' was a mistake because no numbers fit in the future cells.
+
+Backtrack: It returns to the original cell, erases the '1', and tries '2'.
